@@ -18,6 +18,33 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="bubbleSort.cpp" />
+    <ClCompile Include="deletebackList.cpp" />
+    <ClCompile Include="leetcode_20.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="ReverseList.cpp" />
+    <ClCompile Include="leetcode_121.cpp" />
+    <ClCompile Include="leetcode_155.cpp" />
+    <ClCompile Include="leetcode_167.cpp" />
+    <ClCompile Include="leetcode_172.cpp" />
+    <ClCompile Include="leetcode_88.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\leetcode_53.cpp" />
+    <ClCompile Include="src\mystring.cpp" />
+    <ClCompile Include="src\timer.cpp" />
+    <ClCompile Include="stackToqueue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearch.h" />
+    <ClInclude Include="bubbleSort.h" />
+    <ClInclude Include="deletebackList.h" />
+    <ClInclude Include="leetcode_20.h" />
+    <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="ReverseList.h" />
+    <ClInclude Include="src\mystring.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{4FC21C34-ECBF-4066-9967-CBDF0F410DB7}</ProjectGuid>
@@ -150,9 +177,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="cpp_study.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
